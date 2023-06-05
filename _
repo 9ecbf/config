@@ -1,0 +1,8 @@
+#!/bin/bash
+
+while read config; do
+    conf=/9ecbf/config/$config.conf
+    [[ -f $conf ]] && source $conf &> /dev/null
+done < /9ecbf/config/ENABLED
+
+[[ "$PWD" == "/mnt"* ]] && cd ~ || test true
