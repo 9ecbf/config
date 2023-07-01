@@ -5,4 +5,5 @@ go
 nvm
 deno
 docker
+k3s
 
