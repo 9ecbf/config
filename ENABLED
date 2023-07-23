@@ -6,4 +6,5 @@ nvm
 deno
 docker
 k3s
+podman
 
