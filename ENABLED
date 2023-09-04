@@ -6,5 +6,5 @@ go
 nvm
 deno
 k3s
-podman
+docker
 
