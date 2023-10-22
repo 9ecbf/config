@@ -5,4 +5,6 @@ while read config; do
     [[ -f $conf ]] && source $conf &> /dev/null
 done < /9ecbf/config/ENABLED
 
+source /9ecbf/config/git.conf
+
 [[ "$PWD" == "/mnt"* ]] && cd ~ || test true
